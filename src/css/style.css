@@ -1,1 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap");
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.images .image {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.images .image img {
+    width: 100%;
+}
+
+.images .image .infos {
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.images .image .infos .title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.images .image .infos .author {
+    font-weight: 300px;
+    font-size: 17px;
+}
